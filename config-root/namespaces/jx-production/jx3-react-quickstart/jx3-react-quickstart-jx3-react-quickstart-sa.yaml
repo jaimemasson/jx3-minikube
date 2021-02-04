@@ -1,0 +1,8 @@
+# Source: jx3-react-quickstart/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jx3-react-quickstart-jx3-react-quickstart
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'

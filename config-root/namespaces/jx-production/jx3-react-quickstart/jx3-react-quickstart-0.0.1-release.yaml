@@ -1,0 +1,76 @@
+# Source: jx3-react-quickstart/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-02-04T06:07:42Z"
+  deletionTimestamp: null
+  name: 'jx3-react-quickstart-0.0.1'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: 71fe582bc58fdcc0f70fc6e28e837f22341a18ff
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 17f78b741629ee29231707a5de11a8c1a63af458
+    - author:
+        email: jaime.masson@picmonic.com
+        name: Jaime Masson
+      branch: master
+      committer:
+        email: jaime.masson@picmonic.com
+        name: Jaime Masson
+      message: |
+        no message
+      sha: 13457e48df3250e860bfb3fec2ec2cb1954f0356
+    - author:
+        email: jaime.masson@picmonic.com
+        name: jaimemasson
+      branch: master
+      committer:
+        email: noreply@github.com
+        name: GitHub
+      message: test
+      sha: 85e279a6e7eaced823f95699817699b820b30a64
+    - author:
+        email: jaime.masson@picmonic.com
+        name: jaimemasson
+      branch: master
+      committer:
+        email: noreply@github.com
+        name: GitHub
+      message: test
+      sha: 7ebe83aae85c169cc84acb2c080c454e69010a37
+    - author:
+        email: jaime.masson@picmonic.com
+        name: jaimemasson
+      branch: master
+      committer:
+        email: noreply@github.com
+        name: GitHub
+      message: Create OWNERS
+      sha: f293ac4e19bdc24be850b5709350790da23c2398
+  gitHttpUrl: https://github.com/jaimemasson/jx3-react-quickstart
+  gitOwner: jaimemasson
+  gitRepository: jx3-react-quickstart
+  name: 'jx3-react-quickstart'
+  releaseNotesURL: https://github.com/jaimemasson/jx3-react-quickstart/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}
