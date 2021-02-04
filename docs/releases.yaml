@@ -18,7 +18,7 @@
     - name: bucketrepo
       url: http://bucketrepo-jx.192.168.64.2.nip.io/
     - name: hook
-      url: http://57081a1ed98d.ngrok.io
+      url: http://390d594ad348.ngrok.io
     name: jxboot-helmfile-resources
     repositoryName: jenkins-x
     repositoryUrl: https://storage.googleapis.com/chartmuseum.jenkins-x.io
