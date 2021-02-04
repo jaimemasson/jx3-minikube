@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: jaimemasson
+    provider: github
+    repository: jx3-react-quickstart
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: jaimemasson-jx3-react-quickstart
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/jaimemasson/jx3-react-quickstart.git
+  org: jaimemasson
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx3-react-quickstart
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/jaimemasson/jx3-react-quickstart
